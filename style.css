@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    padding-top: 60px;
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+  
+
+#toolbar {
+    background:  linear-gradient(to right, rgba(66,0,91,1) 0%, rgba(143,42,167,1) 25%, rgba(217,32,124,1) 100%);
+    color: #FFBF00;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    opacity: 50%;
+}
+
+.MovieInfo {
+    visibility: hidden; 
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#movieTitle{
+    color: rgba(143,42,167,1);
+    font-size: 40px;
+}
+
+#errorMsg{
+    color: #FFBF00;
+}
+
+
+h2{
+    display: none;
+    font-weight: bold;
+}
